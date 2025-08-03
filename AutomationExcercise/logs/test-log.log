@@ -1,0 +1,116 @@
+12:58:59 [main] INFO  org.testing.testscript.TestCase2 - Test Case2 started..Add product to cart and verify price/quantity/total
+12:59:02 [main] INFO  org.testing.testscript.TestCase2 - Navigated to Home Page successfully
+12:59:02 [main] INFO  org.testing.testscript.TestCase2 - Entered 'tshirt' in the search box
+12:59:03 [main] INFO  org.testing.testscript.TestCase2 - Clicked on Search button
+12:59:06 [main] INFO  org.testing.testscript.TestCase2 - Product is visible and clicked
+12:59:07 [main] INFO  org.testing.testscript.TestCase2 - Increased quantity value: 2
+12:59:09 [main] INFO  org.testing.testscript.TestCase2 - Add to cart button clicked
+12:59:11 [main] INFO  org.testing.testscript.TestCase2 - Expected: 2598 | Actual: 2598
+13:01:14 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+13:01:17 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products?search=tshirt
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+13:01:20 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+13:01:23 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+13:01:24 [main] INFO  org.testing.testscript.TestCase1 - product is available
+13:01:24 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+13:01:24 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+13:01:24 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+13:01:24 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+13:01:28 [main] INFO  org.testing.testscript.TestCase2 - Test Case2 started..Add product to cart and verify price/quantity/total
+13:01:32 [main] INFO  org.testing.testscript.TestCase2 - Navigated to Home Page successfully
+13:01:32 [main] INFO  org.testing.testscript.TestCase2 - Entered 'tshirt' in the search box
+13:01:33 [main] INFO  org.testing.testscript.TestCase2 - Clicked on Search button
+13:01:36 [main] INFO  org.testing.testscript.TestCase2 - Product is visible and clicked
+13:01:37 [main] INFO  org.testing.testscript.TestCase2 - Increased quantity value: 2
+13:01:39 [main] INFO  org.testing.testscript.TestCase2 - Add to cart button clicked
+13:01:40 [main] INFO  org.testing.testscript.TestCase2 - Expected: 2598 | Actual: 2598
+13:05:44 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+13:05:49 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+13:05:50 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+13:05:50 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products?search=tshirt
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+13:05:51 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - product is available
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+13:05:53 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+13:05:57 [main] INFO  org.testing.testscript.TestCase2 - Test Case2 started..Add product to cart and verify price/quantity/total
+13:06:01 [main] INFO  org.testing.testscript.TestCase2 - Navigated to Home Page successfully
+13:06:02 [main] INFO  org.testing.testscript.TestCase2 - Entered 'tshirt' in the search box
+13:06:04 [main] INFO  org.testing.testscript.TestCase2 - Clicked on Search button
+13:06:08 [main] INFO  org.testing.testscript.TestCase2 - Product is visible and clicked
+13:06:08 [main] INFO  org.testing.testscript.TestCase2 - Increased quantity value: 2
+13:06:11 [main] INFO  org.testing.testscript.TestCase2 - Add to cart button clicked
+13:06:12 [main] INFO  org.testing.testscript.TestCase2 - Expected: 2598 | Actual: 2598
+13:20:25 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+13:20:49 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products?search=tshirt
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+13:20:52 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+13:20:54 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+13:20:55 [main] INFO  org.testing.testscript.TestCase1 - product is available
+13:20:55 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+13:20:55 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+13:20:55 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+13:20:55 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+13:21:00 [main] INFO  org.testing.testscript.TestCase2 - Test Case2 started..Add product to cart and verify price/quantity/total
+13:21:03 [main] INFO  org.testing.testscript.TestCase2 - Navigated to Home Page successfully
+13:21:03 [main] INFO  org.testing.testscript.TestCase2 - Entered 'tshirt' in the search box
+13:21:05 [main] INFO  org.testing.testscript.TestCase2 - Clicked on Search button
+13:21:07 [main] INFO  org.testing.testscript.TestCase2 - Product is visible and clicked
+13:21:08 [main] INFO  org.testing.testscript.TestCase2 - Increased quantity value: 2
+13:21:10 [main] INFO  org.testing.testscript.TestCase2 - Add to cart button clicked
+13:21:11 [main] INFO  org.testing.testscript.TestCase2 - Expected: 2598 | Actual: 2598
