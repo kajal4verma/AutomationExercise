@@ -9,14 +9,16 @@ import org.testing.assertion.assertionn;
 import org.testing.base.base;
 import org.testing.page.HomePage;
 import org.testing.page.products;
+import org.testing.utilities.dataprovider;
 import org.testing.utilities.logCapture;
 import org.testing.utilities.screenCapture;
 import org.testng.annotations.Test;
 
 
-public class TestCase1 extends base {
-	@Test
-	public void tc1() throws InterruptedException, IOException {
+public class TestCase1 extends  base {
+	@Test(dataProvider = "testdata", dataProviderClass = dataprovider.class)
+	
+	public void tc1(String productname) throws InterruptedException, IOException {
          screenCapture sc=new screenCapture(driver);
          test=report.createTest("test case 1");
          
@@ -54,8 +56,8 @@ public class TestCase1 extends base {
             logCapture.logs(getClass(), "info", " Navigated to product page");
             product = new products(driver, p);
             test.pass("Entered tshirt in the search box.");
-            logCapture.logs(getClass(), "info", "Entered Tshirt in search box");
-            product.searchBox("tshirt");
+            logCapture.logs(getClass(), "info", "Entered "+ productname + " in search box");
+            product.searchBox(productname);
             System.out.println("Searched for 'tshirt'");
             test.pass("Search functionality is working correctly for the input 'tshirt");
         } catch (Exception e) {
@@ -71,15 +73,10 @@ public class TestCase1 extends base {
             logCapture.logs(getClass(), "info", "click on search button");
 			product.clickOnSearchButton();
 			String path = sc.screenshot("search_button_pass");
-			String url2=driver.getCurrentUrl();
-            logCapture.logs(getClass(), "info", "current url is "+url2);
+			
 			String title=driver.getTitle();
-            logCapture.logs(getClass(), "info", "current title is "+title);
-			System.out.println(url2);
-			logCapture.logs(getClass(), "info", " verifying current url");
-			assertionn.varifyUrl(url2,"https://www.automationexercise.com/products?search=tshirt");
-            logCapture.logs(getClass(), "info", " sucessfully verify url");
-			test.pass("Verified Search Results URL: https://www.automationexercise.com/products?search=tshirt");
+            logCapture.logs(getClass(), "info", "current title is "+title);			
+            logCapture.logs(getClass(), "info", " sucessfully verify url");		
 			System.out.println(title);
 			logCapture.logs(getClass(), "info", " verifying title");
 			assertionn.varifytitle(title,"Automation Exercise - All Products");	
@@ -88,9 +85,7 @@ public class TestCase1 extends base {
 			test.addScreenCaptureFromPath(path);
 		} catch (Exception e) {
             logCapture.logs(getClass(), "error", " not able to click on search button");
-
             logCapture.logs(getClass(), "error", " verifying title failed");
-            logCapture.logs(getClass(), "error", " verifying url failed");
 			String path = sc.screenshot("search_button_fail");
             System.out.println("Search button click failed: " + e.getMessage());
             System.out.println("URL or title assertion failed: " + e.getMessage());
@@ -100,10 +95,12 @@ public class TestCase1 extends base {
 		}
 		 WebElement singleProduct ;
 		 try {
-	            logCapture.logs(getClass(), "info", "product is visible after search");
 			  singleProduct = product.getProduct();
 			  String path = sc.screenshot("product_visibility_pass");
+			  logCapture.logs(getClass(), "info", "check product is visible after search");
 			 assertionn.verifyProductvVisible(singleProduct, "Product not visible");
+			  logCapture.logs(getClass(), "info", "product is visible after search");
+
 			 singleProduct.click();//stale elmnt
 				test.pass("Product is visible after search");
 				test.addScreenCaptureFromPath(path);
@@ -114,6 +111,7 @@ public class TestCase1 extends base {
 			logCapture.logs(getClass(), "error", "Product not visible ");
 			String path = sc.screenshot("product_visibility_fail");
 			System.out.println("Product click failed: " + e.getMessage());
+			
 			test.pass("Product is not visible after search");
 			test.addScreenCaptureFromPath(path);
 

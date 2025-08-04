@@ -114,3 +114,187 @@
 13:21:08 [main] INFO  org.testing.testscript.TestCase2 - Increased quantity value: 2
 13:21:10 [main] INFO  org.testing.testscript.TestCase2 - Add to cart button clicked
 13:21:11 [main] INFO  org.testing.testscript.TestCase2 - Expected: 2598 | Actual: 2598
+09:35:58 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:36:01 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products?search=tshirt
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:36:03 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+09:36:06 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - product is available
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+09:36:07 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+09:36:13 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:36:16 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:36:17 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products?search=dddd
+09:36:17 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:36:17 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:38:59 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:39:02 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:39:04 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:39:04 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:39:04 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:39:04 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:39:04 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+09:39:06 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+09:39:07 [main] INFO  org.testing.testscript.TestCase1 - product is available
+09:39:07 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+09:39:07 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+09:39:07 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+09:39:07 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+09:39:10 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:39:13 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:39:14 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:39:14 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:39:14 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:39:14 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:39:14 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+09:39:25 [main] ERROR org.testing.testscript.TestCase1 - Product not visible 
+09:39:25 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product name is not visible
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product price is not visible
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product default quantity is not equal to 1
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product availability is not visible
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product brand is not visible
+09:39:28 [main] ERROR org.testing.testscript.TestCase1 - product condition is not visible
+09:42:30 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:42:33 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 - check product is visible after search
+09:42:36 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - product is available
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+09:42:37 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+09:42:41 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 - Entered Tshirt in search box
+09:42:44 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:42:45 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:42:45 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:42:45 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:42:45 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:42:55 [main] ERROR org.testing.testscript.TestCase1 - Product not visible 
+09:42:56 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product name is not visible
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product price is not visible
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product default quantity is not equal to 1
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product availability is not visible
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product brand is not visible
+09:42:59 [main] ERROR org.testing.testscript.TestCase1 - product condition is not visible
+09:44:30 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 - Entered tshirt in search box
+09:44:33 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:44:35 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:44:35 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:44:35 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:44:35 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:44:36 [main] INFO  org.testing.testscript.TestCase1 - check product is visible after search
+09:44:36 [main] INFO  org.testing.testscript.TestCase1 - product is visible after search
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - product name is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check product price is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - product price is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check default product quantity is 1
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - default quantity is 1
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check product availability is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - product is available
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check product condition is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - product is new 
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - check product brand is visible
+09:44:38 [main] INFO  org.testing.testscript.TestCase1 - product brand is visible
+09:44:42 [main] INFO  org.testing.testscript.TestCase1 - test case 1 started..verifying product detail and visibility
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to Home page
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 - current url is https://www.automationexercise.com/products
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 -  verifying current url
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 - url sucessfully verified
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 - sucessfully Navigate to Home page
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 -  Navigated to product page
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 - Entered dddd in search box
+09:44:45 [main] INFO  org.testing.testscript.TestCase1 - click on search button
+09:44:46 [main] INFO  org.testing.testscript.TestCase1 - current title is Automation Exercise - All Products
+09:44:46 [main] INFO  org.testing.testscript.TestCase1 -  sucessfully verify url
+09:44:46 [main] INFO  org.testing.testscript.TestCase1 -  verifying title
+09:44:46 [main] INFO  org.testing.testscript.TestCase1 - successfully verify title
+09:44:56 [main] ERROR org.testing.testscript.TestCase1 - Product not visible 
+09:44:56 [main] INFO  org.testing.testscript.TestCase1 - check product name is visible
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product name is not visible
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product price is not visible
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product default quantity is not equal to 1
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product availability is not visible
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product brand is not visible
+09:45:00 [main] ERROR org.testing.testscript.TestCase1 - product condition is not visible
