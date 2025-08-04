@@ -29,11 +29,11 @@ public class excelReader {
 	    	 if(!status.equalsIgnoreCase("y")) {
 	    		 continue;
 	    	 }
-	    	
 	    		 String product=getcellvalue(row.getCell(0));
 	    		 Object[] ob=new Object[] {product};
 	    		 list.add(ob);
-	    	
+	    	 
+	    	 
 	     }
 	     wb.close();
 	     return list;

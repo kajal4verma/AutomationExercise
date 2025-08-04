@@ -8,14 +8,15 @@ import org.testing.base.base;
 import org.testing.page.AddToCart;
 import org.testing.page.HomePage;
 import org.testing.page.products;
+import org.testing.utilities.dataprovider;
 import org.testing.utilities.logCapture;
 import org.testing.utilities.screenCapture;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestCase2 extends base {
-    @Test
-    public void tc2() throws IOException {
+    @Test(dataProvider = "testdata",dataProviderClass = dataprovider.class)
+    public void tc2(String productname) throws IOException {
         test = report.createTest("test case 2");
         screenCapture sc = new screenCapture(driver);
         logCapture.logs(getClass(), "info", "Test Case2 started..Add product to cart and verify price/quantity/total");
@@ -51,8 +52,8 @@ public class TestCase2 extends base {
         try 
         {
           product = new products(driver, p);
-            product.searchBox("tshirt");
-             logCapture.logs(getClass(), "info", "Entered 'tshirt' in the search box");
+            product.searchBox(productname);
+             logCapture.logs(getClass(), "info", "Entered "+ productname+" in the search box");
             test.pass("Entered 'tshirt' in the search box.");
             System.out.println("Searched for 'tshirt'");
         }  catch (Exception e) {
